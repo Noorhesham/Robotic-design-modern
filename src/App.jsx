@@ -6,7 +6,7 @@ import Signup from "./pages/Signup";
 const App = () => {
   return <BrowserRouter>
     <Routes>
-      <Route index path="/" element={<Main/>}/>
+      <Route  path="/" element={<Main/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/signup" element={<Signup/>}/>
     </Routes>
