@@ -1,14 +1,18 @@
-import Section from '../components/Section'
-import ButtonGradient from '../assets/svg/ButtonGradient'
-import SignupForm from '../components/SignupForm'
+import Section from "../components/Section";
+import ButtonGradient from "../assets/svg/ButtonGradient";
+import SignupForm from "../components/SignupForm";
+import Header from "../components/Header";
 
 const Signup = () => {
   return (
-    <Section>
-    <SignupForm />
-  <ButtonGradient />
-  </Section>
-  )
-}
+    <>
+    <Header/>
+      <Section>
+        <SignupForm />
+        <ButtonGradient />
+      </Section>
+    </>
+  );
+};
 
-export default Signup
+export default Signup;
